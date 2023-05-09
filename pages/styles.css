@@ -1,0 +1,70 @@
+ 
+ 
+ 
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    width:100%;
+}
+.container img{
+    height: 200px;
+    width:150px;
+}
+.player{
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding-bottom:15px;
+    margin:35px;
+}
+.player h3{
+    width: 100%;
+}
+.player button{
+    margin-top: 35px;
+}
+#decide{
+    margin-top: 40px;
+    width: 58%;
+}
+#title{
+    position: relative;
+    left: 50px;
+    /* text-align:center; */
+    margin-top:45px;
+} 
+
+.header{
+    text-align:center;
+    width:100%;
+}
+
+.decide-btn{
+   text-align:center;
+   padding-bottom:40px;
+   width:35%;
+}
+
+button{
+    height:45px;
+    border-radius:10px;
+    width:50%;
+    margin:0 50px;
+}
+
+#top1,#top2{
+    width:100%;
+    text-align:center;
+    margin-top:25px;
+    position: relative;
+}
+
+.result{
+    display: flex;
+    justify-content: space-evenly;
+}
